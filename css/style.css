@@ -1,0 +1,227 @@
+.header {
+  background: url(../img/bg_hero.jpg) no-repeat center;
+  height: 900px;
+  background-size: cover;
+  position: relative;
+}
+.logo {
+  margin-top: 60px;
+}
+.title-header {
+  margin-top: 20rem;
+  font-size: 54px;
+  line-height: 1.5;
+  letter-spacing: 4px;
+}
+.title {
+  line-height: 1.5;
+}
+.menu {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+.menu-block {
+  display: inline-block;
+  -webkit-transform: translate(2700%, 70%);
+          transform: translate(2700%, 70%);
+}
+.triangle-block {
+  width: 0;
+  height: 0;
+  border-bottom: 900px solid #84d5df;
+  border-left: 1300px solid transparent;
+  opacity: 0.5;
+  position: absolute;
+  top: 0%;
+  right: 0.1%;
+}
+/*Секция с фото и текстом*/
+.photo {
+  width: 800px;
+  background: url(../img/mask.jpg) no-repeat center;
+  height: 502px;
+  background-size: cover;
+  display: inline-block;
+}
+.text {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  margin-left: 120px;
+  margin-top: 115px;
+}
+.text-title {
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #666666;
+  font-weight: 700;
+}
+.text-write {
+  font-size: 40px;
+  color: #666666;
+}
+/*Секция с фотографиями*/
+.photo-1 {
+  width: 400px;
+  height: 519px;
+  background: url(../img/transport.jpg) no-repeat center;
+  margin-top: -5px;
+  display: inline-block;
+  background-size: cover;
+  margin-right: -4px;
+}
+.photo-2 {
+  width: 400px;
+  height: 519px;
+  background: url(../img/skier.jpg) no-repeat center;
+  margin-top: -5px;
+  vertical-align: top;
+  display: inline-block;
+  margin-right: -4px;
+}
+.photo-3 {
+  width: 400px;
+  height: 519px;
+  background: url(../img/skott.jpg) no-repeat center;
+  margin-top: -5px;
+  vertical-align: top;
+  display: inline-block;
+  margin-right: -4px;
+}
+.photo-4 {
+  width: 703px;
+  height: 519px;
+  background: url(../img/mountains.jpg) no-repeat center;
+  margin-top: -5px;
+  vertical-align: top;
+  display: inline-block;
+  background-size: cover;
+}
+/*Секция с инстаграммом*/
+.instagram {
+  background-color: #3f729b;
+  width: 1600px auto;
+  height: 516px;
+  background-size: cover;
+  margin-top: -7px;
+  position: relative;
+}
+.insta-text {
+  display: inline-block;
+  color: white;
+  padding-top: 123px;
+  padding-left: 210px;
+  padding-right: 93px;
+  padding-bottom: 117px;
+  width: 800px;
+  height: 517px;
+}
+.header-insta {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 31px;
+}
+.write-insta {
+  font-size: 25px;
+  margin-bottom: 42px;
+}
+.insta-btn {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #3f729b;
+  border-radius: 30px;
+  height: 50px;
+  border: 2px solid white;
+  width: 280px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.insta-img {
+  display: inline-block;
+  width: 401px;
+  height: 515px;
+  background: url(../img/ski.jpg) no-repeat center;
+  position: absolute;
+}
+/*Секция с "видео"*/
+.video {
+  position: relative;
+}
+.video-bg {
+  height: 904px;
+  width: 1600px auto;
+  background-color: #282b2f;
+  background-size: cover;
+}
+.video-photo {
+  width: 1200px;
+  height: 904px;
+  background: url(../img/men.jpg) no-repeat center;
+  position: absolute;
+  left: 400px;
+}
+.video-text {
+  height: 500px;
+  width: 400px;
+  background-color: #212227;
+  padding-top: 137px;
+  padding-left: 56px;
+  padding-bottom: 96px;
+}
+.video-header {
+  color: #2ebd59;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.video-strong {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 28px;
+  color: #0e8d3f;
+}
+.video-write {
+  margin-bottom: 50px;
+  color: white;
+  font-size: 16px;
+}
+.video-btn {
+  height: 48px;
+  width: 200px;
+  text-transform: uppercase;
+  color: #2ebd59;
+  background-color: #212227;
+  border: 2px solid #2ebd59;
+  border-radius: 30px;
+  font-weight: 800;
+  position: relative;
+}
+.video-btn::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 15px solid #2ebd59;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  margin-left: 10px;
+}
+/*Секция с цветными блоками*/
+.col-md-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.green-block {
+  height: 518px;
+  background-color: #2ebd59;
+  background-size: cover;
+}
+.black-block {
+  height: 518px;
+  background-color: #282b2f;
+  background-size: cover;
+  padding-right: 0;
+  padding-left: 0;
+}
